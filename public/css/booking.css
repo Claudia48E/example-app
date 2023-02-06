@@ -1,0 +1,26 @@
+main {
+    overflow: hidden;
+    background-color: rgba(94, 8, 52, 0.788);
+    text-align: center;
+    height: 300px;
+}
+h2 {
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 3rem;
+}
+p {
+    font-size: 20px;
+}
+button {
+    background-color: #360441;
+    border: none;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

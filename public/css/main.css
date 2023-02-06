@@ -1,0 +1,134 @@
+/*box sizingul cu border box ne asigura ca, 
+chenarele sunt incluse in inaltimea si latimea totala a elementelor */
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+header {
+    background-color: rgba(122, 101, 112, 0.788);
+    /*padding defineste spatiul liber din jurul unui element*/
+    padding: 4px;
+    display: flex;
+    /*  permit elementelor  sa fie afisate alaturat intr-un mod flexibil*/
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+    height: 180px;
+    justify-content: space-between;
+    /* aliniaza elementele cu spatiu intre ele*/
+}
+
+.nav {
+    background-color: rgb(172, 122, 145);
+    height: 80px;
+    overflow: hidden;
+    /*am scos spatiul alb dintre header si nav*/
+}
+.nav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+.nav a:hover {
+    background-color: #777777;
+    color: #ffffff;
+}
+/*coloanele care sunt trei de la pagina queen pizza*/
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+/*coloane care sunt doua de la pagina cook at home*/
+.column1 {
+    float: left;
+    width: 50%;
+    padding: 15px;
+}
+
+button {
+    background-color: #1c87c9;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+main {
+    overflow: hidden;
+    background-color: #777777;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    width: 400;
+}
+li {
+    margin-left: 20px;
+    font-size: 20px;
+    flex-grow: 1;
+}
+
+article {
+    margin-left: 50px;
+}
+.multiple {
+    text-align: center;
+    border-bottom: 1px solid;
+    padding: 10px;
+    box-shadow: 4px 4px #00a4bd, 8px 8px #ff7a59, 12px 12px #334758;
+}
+iframe {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 4px 4px #00a4bd, 8px 8px #ff7a59, 12px 12px #334758;
+}
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 726px;
+    width: 837px;
+}
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 726px;
+    width: 837px;
+}
+.box {
+    float: right;
+}
+
+footer {
+    position: relative;
+    padding: 5px 5px 0px 5px;
+    font-weight: bold;
+    left: 0px;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}

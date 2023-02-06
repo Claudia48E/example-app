@@ -1,0 +1,16 @@
+body {
+    /*border: 0.5rem solid;*/
+    font-size: 20px;
+    font-weight: bold;
+}
+img {
+    border-radius: 10px;
+}
+.btn-warning {
+    background-color: rgb(172, 122, 145);
+    height: 30px;
+    width: 80px;
+}
+form {
+    color: rgb(13, 14, 12);
+}
